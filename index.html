@@ -81,44 +81,45 @@
                 </td>
                 <td style="text-align: center;">2019-2020</td>
             </tr>
-            <tr> <td colspan="6">Total Experience : 5+ years in web development</td></tr>
         </tbody>
+        <tfoot><tr> <td colspan="6">Total Experience : 5+ years in web development</td></tr></tfoot>
     </table>
     <h1 style="color: rgb(20, 57, 117);">contact me</h1>
     <p>feel free to reach out to me using the form below</p>
-    <form action="" >
-<p><fieldset style="width: 30%;" ><legend>personal information</legend></p>
-    <label for="name">first name</label>
+   <form action="">
+    
+<fieldset style="width: 30%;" ><legend><p>personal information</p></legend>
+    <label for="name" style="display: inline-block;">first name</label>
 <input type="text" name="" id="name" required ><br><br>
-<label for="name">last name</label>
+<label for="name"style="display: inline-block;">last name</label>
 <input type="text" name="" id="name" required><br><br>
-<label for="email">email address</label>
+<label for="email"style="display: inline-block;">email address</label>
 <input type="email" name="" id="email" required><br><br>
-<label for="phone">phone number</label>
+<label for="phone"style="display: inline-block;">phone number</label>
 <input type="number" name="" id="phone" ><br><br>
-<label for="date">preferred meeting date</label>
+<label for="date"style="display: inline-block;">preferred meeting date</label>
 <input type="date" name="" id="date" ><br><br>
-<label for="time">best time to contact</label>
+<label for="time"style="display: inline-block;">best time to contact</label>
 <input type="time" name="" id="time" required><br><br>
 </fieldset>
-</form>
-<form action="">
+
+
     <fieldset style="width: 30%;"><legend><p>project details</p></legend>
     <label for="text">project type</label>
 <input type="text" name="" id="text" required><br><br>
     <label for="text">project description</label>
 <input type="text" name="" id="text" required><br><br>
-    <label for="">Budget Range :</label><br><br>
-    <input type="radio"> Under 5,000$ <br>
-    <input type="radio"> 5,000$-1,000$ <br>
-    <input type="radio"> 1,000$-15.000$ <br>
-    <input type="radio"> Over 25,000$ <br><br>
-    <label for="">Services required (check all <br>that apply):</label><br><br>
-    <input type="checkbox"> UI/UX design <br>
-    <input type="checkbox"> Front end development <br>
-    <input type="checkbox"> backend development <br>
-    <input type="checkbox"> Hosting & development <br>
-    <input type="checkbox"> maintence & support <br><br>
+    <label for="" style="display: inline-block;">Budget Range :</label><br><br>
+    <input type="radio" name="money" value="5000"> Under 5,000$ <br>
+    <input type="radio" name="money" value="5,000$-1,000$"> 5,000$-1,000$ <br>
+    <input type="radio" name="money" value="1,000$-15.000$"> 1,000$-15.000$ <br>
+    <input type="radio" name="money" value="Over 25,000$"> Over 25,000$ <br><br>
+    <label for=""style="display: inline-block;">Services required (check all <br>that apply):</label><br><br>
+    <input type="checkbox" value="UI"> UI/UX design <br>
+    <input type="checkbox" value="Front end"> Front end development <br>
+    <input type="checkbox" value="backend"> backend development <br>
+    <input type="checkbox" value="hosting"> Hosting & development <br>
+    <input type="checkbox" value="maintence"> maintence & support <br><br>
     <label for="">How did you hear about me</label><br><br>
     <select id="source" name="source" required><br>
     <option value="" disabled selected>-- select source --</option>
@@ -129,8 +130,11 @@
     <option value="other">Other</option>
   </select>
     </fieldset><br>
+    
+    
     <button style="background-color: rgb(91, 90, 177); color: aliceblue;">send message</button>
     <button style="background-color: brown; color: aliceblue;">clear form</button>
+
 </form>
 </body>
 </html>
